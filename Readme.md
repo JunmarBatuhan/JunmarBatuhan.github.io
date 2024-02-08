@@ -10,7 +10,8 @@
 
 <p align="center">
   <a href="(https://github.com/JunmarBatuhan)">
-    <img src="./website/img/index.png">
+    <img src="./website/img/![Batuhan](https://github.com/JunmarBatuhan/JunmarBatuhan.github.io/assets/159219810/3a0e9fa5-4137-4507-9489-5e0f5ed0f463)
+">
   </a>
 </p>
 
