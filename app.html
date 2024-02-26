@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Mobile App</title>
-    <link rel="stylesheet" href="styles.css">
     <style>
         body {
-            background-image: url('background.jpg'); /* Replace 'background.jpg' with your actual background image file */
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('https://via.placeholder.com/1500x1000'); /* Placeholder background image */
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
+            height: 100vh;
         }
 
         header {
@@ -24,10 +27,49 @@
             height: 100px; /* Adjust size as needed */
             display: block;
             margin: 0 auto;
-            background-image: url('app-icon.png'); /* Replace 'app-icon.png' with your actual app icon file */
+            background-image: url('https://via.placeholder.com/100'); /* Placeholder app icon */
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
+            border-radius: 50%;
+        }
+
+        nav {
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+        }
+
+        main {
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.7);
+            margin: 20px;
+            border-radius: 10px;
+        }
+
+        footer {
+            text-align: center;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
         }
     </style>
 </head>
@@ -60,6 +102,5 @@
     <footer>
         <p>&copy; 2024 Your Mobile App. All rights reserved.</p>
     </footer>
-    <script src="scripts.js"></script>
 </body>
 </html>
